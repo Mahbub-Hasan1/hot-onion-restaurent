@@ -1,0 +1,16 @@
+.logo{
+    margin-right: 30%;
+    margin-left: 5%;
+}
+.logoImg{
+    width:20%;
+}
+.SearchSection{
+    background-image: url(../../imgs/bannerbackground.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    overflow: hidden;
+    height: 400px;
+    background-size: 1500px 500px;
+}
