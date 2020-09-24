@@ -20,7 +20,7 @@ import  Dinner6 from '../imgs/Dinner/dinner6.png';
 
 const fakeDataProducts = [
     { 
-    id: '1',
+    id: '0',
     category: 'breakfast',
     name: 'Bagel and cream cheese',
     img:`${breakfast1}`,
@@ -28,7 +28,7 @@ const fakeDataProducts = [
     price: '6.99',
 },
 { 
-    id: '2',
+    id: '1',
     category: 'breakfast',
     name: 'Breakfast sandwich',
     img:`${breakfast2}`,
@@ -36,7 +36,7 @@ const fakeDataProducts = [
     price: '9.99',
 },
 { 
-    id: '3',
+    id: '2',
     category: 'breakfast',
     name: 'Baked Chiken',
     img:`${breakfast3}`,
@@ -44,7 +44,7 @@ const fakeDataProducts = [
     price: '10.99',
 },
 { 
-    id: '4',
+    id: '3',
     category: 'breakfast',
     name: 'Egges Benedict',
     img:`${breakfast4}`,
@@ -52,7 +52,7 @@ const fakeDataProducts = [
     price: '8.99',
 },
 { 
-    id: '5',
+    id: '4',
     category: 'breakfast',
     name: 'Toast Croissant Fried egg',
     img:`${breakfast5}`,
@@ -60,7 +60,7 @@ const fakeDataProducts = [
     price: '19.99',
 },
 { 
-    id: '6',
+    id: '5',
     category: 'breakfast',
     name: 'Full Breakfast Fried Egg Toast Bru',
     img:`${breakfast6}`,
@@ -68,7 +68,7 @@ const fakeDataProducts = [
     price: '3.99',
 },
 { 
-    id: '7',
+    id: '6',
     category: 'lunch',
     name: 'Healthy Meal Plan',
     img:`${lunch1}`,
@@ -76,7 +76,7 @@ const fakeDataProducts = [
     price: '9.99',
 },
 { 
-    id: '8',
+    id: '7',
     category: 'lunch',
     name: 'Fried Chicken Bento',
     img:`${lunch2}`,
@@ -84,7 +84,7 @@ const fakeDataProducts = [
     price: '9.99',
 },
 { 
-    id: '9',
+    id: '8',
     category: 'lunch',
     name: 'Tarragon-Rubbed-Salmon',
     img:`${lunch3}`,
@@ -92,7 +92,7 @@ const fakeDataProducts = [
     price: '6.99',
 },
 { 
-    id: '10',
+    id: '9',
     category: 'lunch',
     name: 'indian Lunch',
     img:`${lunch4}`,
@@ -100,7 +100,7 @@ const fakeDataProducts = [
     price: '8.99',
 },
 { 
-    id: '11',
+    id: '10',
     category: 'lunch',
     name: 'Beef Steak',
     img:`${lunch5}`,
@@ -108,7 +108,7 @@ const fakeDataProducts = [
     price: '15.99',
 },
 { 
-    id: '12',
+    id: '11',
     category: 'lunch',
     name: 'Honey-Soy-Glazed Salmon with Peppers',
     img:`${lunch6}`,
@@ -116,7 +116,7 @@ const fakeDataProducts = [
     price: '7.99',
 },
 { 
-    id: '13',
+    id: '12',
     category: 'dinner',
     name: 'Salmon with Grapefruit and Lentil Salad',
     img:`${Dinner1}`,
@@ -124,7 +124,7 @@ const fakeDataProducts = [
     price: '9.99',
 },
 { 
-    id: '14',
+    id: '13',
     category: 'dinner',
     name: 'Lemony Salmon Piccata',
     img:`${Dinner2}`,
@@ -132,7 +132,7 @@ const fakeDataProducts = [
     price: '10.99',
 },
 { 
-    id: '15',
+    id: '14',
     category: 'dinner',
     name: 'Pork Tenderloin With Quinoa Pilaf',
     img:`${Dinner3}`,
@@ -140,7 +140,7 @@ const fakeDataProducts = [
     price: '12.99',
 },
 { 
-    id: '16',
+    id: '15',
     category: 'dinner',
     name: 'French fries with cheese',
     img:`${Dinner4}`,
@@ -148,7 +148,7 @@ const fakeDataProducts = [
     price: '8.99',
 },
 { 
-    id: '17',
+    id: '16',
     category: 'dinner',
     name: 'Garlic Butter BAked Salmon',
     img:`${Dinner5}`,
@@ -156,7 +156,7 @@ const fakeDataProducts = [
     price: '6.99',
 },
 { 
-    id: '18',
+    id: '17',
     category: 'dinner',
     name: 'Baked Chiken',
     img:`${Dinner6}`,

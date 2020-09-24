@@ -1,0 +1,31 @@
+.DeliveryDetails{
+    width: 90%;
+}
+.DeliveryItemsDetails{
+    width:10%;
+    padding: 5%;
+}
+form{
+    margin: 10%;
+}
+.inputBox{
+    width: 100%;
+    margin: 10px;
+    background-color: #F0F0F0;
+    border: none;
+    border-top: 4px solid #F84063;
+    border-radius: 0px 0px 5px 5px;
+    padding: 5px;
+}
+.inputBtn{
+    width: 30%;
+    margin: 10px;
+    background-color: #F0F0F0;
+    border: none;
+    border: 4px solid #F84063;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 35%;
+    font-weight: bold
+}
