@@ -10,15 +10,20 @@ import NoMatch from './components/NoMatch/NoMatch';
 import ProductDetail from './components/ProductDetail/ProductDetail';
 import AppBar from './components/AppBar/AppBar';
 import CartDetail from './components/CartDetail/CartDetail';
+import SignUp from './components/SignUp/SignUp';
+import SignIn from './components/SignIn/SignIn';
 
 export const CategoryContext = createContext();
 
 function App() {
   const [category, setCategory] = useState("breakfast");
   const [cart, setCart] = useState([]);
+  const [loggedInUser, setLoggedInUser] = useState([]);
+  const [SignUpUser, setSignUpUser] = useState([]);
+
 
   return (
-    <CategoryContext.Provider value={{category, setCategory, cart, setCart}}>
+    <CategoryContext.Provider value={{category, setCategory, cart, setCart, loggedInUser, setLoggedInUser, SignUpUser, setSignUpUser}}>
       <Router>
         <AppBar />
         <Switch>
@@ -26,10 +31,10 @@ function App() {
             <Home />
           </Route>
           <Route path="/SignUp">
-            {/* <SignUp /> */}
+            <SignUp />
           </Route>
-          <Route path="/Login">
-            {/* <Login/> */}
+          <Route path="/SignIn">
+            <SignIn/>
           </Route>
           <Route path="/ProductDetail/:id">
             <ProductDetail />
